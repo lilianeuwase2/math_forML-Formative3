@@ -33,10 +33,10 @@ We treat 1,139 heights (205 mothers + 934 children) as a mixture of two Gaussian
 
 ## Part 2 – Bayesian probability
 
-Question: if a review contains a keyword, how likely is it to be positive?
+The Bayesian Probability we are calculating answers the question , if a review contains a keyword, how likely is it to be positive?
 `P(Positive | word) = P(word | Positive) × P(Positive) / P(word)`, using 50,000 IMDb reviews (prior = 0.5).
 
-| Keyword | P(Positive \| word) |
+| Keyword | P(Positive | word) |
 |---|---|
 | wonderful | 0.8122 |
 | excellent | 0.8074 |
